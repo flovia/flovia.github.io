@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>goose | key's place</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/x-icon" href="key_site_twelve.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script>
+    html2canvas(document.querySelector("#capture")).then(canvas => {
+        document.body.appendChild(canvas)
+    });
+    </script>
+    <div id="capture" style="padding: 10px; background: #f5da55">
+        <h4 style="color: #000; ">Hello world!</h4>
+    </div>
+    <button title="generate" onclick='html2canvas(document.querySelector("#capture")).then(canvas=>{document.body.appendChild(canvas)});'>
+</body>
+</html>
